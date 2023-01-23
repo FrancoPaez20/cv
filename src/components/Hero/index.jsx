@@ -19,7 +19,7 @@ export const Hero = () => {
           <Subtitle>
             Frontend Developer<span>.</span>
           </Subtitle>
-          <Button>
+          <Button type="button">
             Download CV <FiDownload />
           </Button>
         </div>

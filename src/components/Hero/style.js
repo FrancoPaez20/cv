@@ -51,6 +51,7 @@ export const Button = styled.button`
   font-size: 1rem;
   margin-top: 1rem;
   gap: 8px;
+  cursor: pointer;
 
   &:hover svg,
   &:focus svg {
