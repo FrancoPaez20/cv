@@ -1,0 +1,43 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+	:root {
+		--negro: #000;
+		--black: #282828;
+		--blanco: #fff;
+		--rosado: #d90a6c;
+		--morado: #7510f7;
+		font-size: 16px;
+	}
+
+	* {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		text-decoration: none;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		scroll-behavior: smooth;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	::-webkit-scrollbar {
+		width: 6px;
+		background-color: var(--blanco);
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 0px;
+		background: #282828;
+	}
+
+	.wrap {
+		max-width: 1020px;
+		width: 100%;
+		margin: auto;
+		padding: 0 10px;
+	}
+`;
