@@ -1,5 +1,7 @@
 import { HeaderContent, Menu, MenuItem, Nav } from "./style";
 export const Header = () => {
+  if (true) return false;
+
   return (
     <HeaderContent id="header" className="header">
       <Nav className="wrap">
